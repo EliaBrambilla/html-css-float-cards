@@ -1,4 +1,5 @@
 
+/* RESET BASE CSS */
 *{
     padding:0;
     margin:0;
@@ -6,12 +7,14 @@
     @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 }
 
+/* PROPRIETA' CLEARFIX */
 .clearfix::after{
     clear:both;
     content:'';
     display: table;
 }
 
+/* CORPO DELLA PAGINA */
 body{
     width: 60%;
     margin: auto;
@@ -33,6 +36,7 @@ p{
     padding-top: 40px;
 }
 
+/* TABELLE */
 .card{
     float: left;
     width: calc(100% / 3);
